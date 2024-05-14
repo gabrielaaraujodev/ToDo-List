@@ -1,0 +1,97 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  font-size: 62.5%;
+}
+
+body {
+  background-color:rgb(75, 75, 75);
+}
+
+#list, #conteudo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 10rem;
+}
+
+#conteudo {
+  margin-top: 0;
+}
+
+h1 {
+  font-size: 3rem;
+  color: blueviolet;
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+section#fillItem {
+  display: flex;
+  justify-content: center;
+  width: 50%;
+  background-color: rgb(160, 160, 160);
+  border-radius: .5rem;
+  padding: .2rem;
+  
+}
+
+input#item {
+  width: 70%;
+  padding: .3rem;
+  border-radius: .7rem;
+  border: none;
+  background-color: rgb(225, 235, 235);
+}
+
+input#item:focus {
+  outline: 2px solid rgba(137, 43, 226, 0.603);
+}
+
+button#button {
+  width: 2.5rem;
+  height: 2.5rem;
+  margin-left: .5rem;
+  border-radius: 50%;
+  border: none;
+  background-color: blueviolet;
+  color: white;
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+button:hover {
+  background-color: rgba(137, 43, 226, 0.726);
+  cursor: pointer;
+}
+
+.itemsOfList {
+  width: 50%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: .5rem;
+  padding: 1rem;
+  border-radius: .5rem;
+  background-color: rgb(160, 160, 160);
+}
+
+button.closeItem {
+  width: 2rem;
+  height: 2rem;
+  font-size: 1.5rem;
+  border-radius: 50%;
+  border: none;
+  background-color: rgb(0, 0, 0);
+  color: red;
+  font-weight: bold;
+  margin-left: 1rem;
+}
+
+.testandoDiv {
+  background-color: yellow;
+}
